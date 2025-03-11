@@ -1,18 +1,18 @@
 # Behaverse Data Loader
 
-The data loader package is a Python implementation of the Behaverse Data, enabling seamless access to behavioral datasets in Python.
+`behaverse-data-loader` is a Python package to seamlessly access [BDM](https://behaverse.org/data-model)-formatted behavioral datasets.
 
 ## Installation
 
-To install the package, you can use pip:
+To install the package, run:
 
 ```bash
-pip install behaverse-data-loader
+pip install -U behaverse-data-loader
 ```
 
 ## Usage
 
-See the [Behaverse website](https://behaverse.org/data) for more information on how to use the package.
+See [behaverse.org/data-loader](https://behaverse.org/data-loader) for more information on how to use the package.
 
 ## License
 
@@ -23,7 +23,7 @@ TODO
 
 ### Development
 
-Before starting development, you need to use `uv` and install the dependencies:
+Before starting development, you need [`uv`](https://github.com/astral-sh/uv) to install the dependencies:
 
 
 ```bash
@@ -31,16 +31,16 @@ uv sync
 source .venv/bin/activate
 ```
 
-### Documentation
+### Documentations
 
-To generate documentations and API reference, run the following commands from the main directory of the project:
+To generate documentations, run the following commands from the project root directory:
 
 ```bash
 cd docs
 quartodoc build && quartodoc interlinks && quarto preview
 ```
 
-The documentation will be available in the `docs/_site/` directory.
+The documentations will be available in the `docs/_site/` directory.
 
 
 
