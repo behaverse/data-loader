@@ -13,7 +13,7 @@ website:
       - getting_started.qmd
       - reference/index.qmd
       - text: Data Model
-        href: https://behaverse.org/data/
+        href: https://behaverse.org/data-model/
     right:
       - icon: github
         href: https://github.com/behaverse/data-loader/

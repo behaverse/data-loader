@@ -23,11 +23,12 @@ TODO
 
 ### Development
 
-Before starting development, you need to install the dependencies. You can do this by creating a new conda environment as defined in the `environment.yml` file:
+Before starting development, you need to use `uv` and install the dependencies:
+
 
 ```bash
-mamba env create -f environment.yml
-mamba activate behaverse
+uv sync
+source .venv/bin/activate
 ```
 
 ### Documentation

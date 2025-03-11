@@ -15,3 +15,5 @@ CRAN_SUBMITION
 /.dvc
 
 .$*.bkp
+
+.venv/

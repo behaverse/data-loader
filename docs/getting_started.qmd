@@ -6,9 +6,9 @@ jupyter: python3
 
 # Getting Started
 
-Make sure you have Python 3.10 or later installed on your system. We recommend using a virtual environment such as Mamba to manage your dependencies.
+Make sure you have Python 3.10 or later installed on your system. We recommend using a package manager to install the dependencies in a virtual environment.
 
-You first need to install the `behaverse-data-loader` Python package. You can do this by running the following command:
+You first need to install the `behaverse-data-loader` Python package by running:
 
 ```bash
 pip install -U behaverse-data-loader
