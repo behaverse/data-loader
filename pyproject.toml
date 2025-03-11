@@ -47,8 +47,8 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://behaverse.org/data"
-Documentation = "https://behaverse.github.io/data-loader"
+Homepage = "https://behaverse.org/data-loader"
+Documentation = "https://behaverse.org/data-loader"
 Repository = "https://github.com/behaverse/data-loader"
 
 [dependency-groups]
